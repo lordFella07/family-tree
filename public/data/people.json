@@ -1,0 +1,19 @@
+{
+  "title": "My Family Tree",
+  "people": [
+    { "id": "p1", "name": "Shieky bin Julkarnain", "gender": "male", "photo": "", "phone": "", "address": "", "dob": "1969-05-09", "dateOfDeath": "", "profession": "", "bloodGroup": "", "fatherId": null, "motherId": null, "spouses": [{ "id": "p2", "status": "married" }], "isInLaw": false },
+    { "id": "p2", "name": "Dayang Ismanorafzan binti Ag Ismail", "gender": "female", "photo": "", "phone": "", "address": "", "dob": "1978-10-23", "dateOfDeath": "", "profession": "", "bloodGroup": "", "fatherId": null, "motherId": null, "spouses": [{ "id": "p1", "status": "married" }], "isInLaw": true },
+
+    { "id": "p3", "name": "Mohd Syariful Mansur bin Shieky", "gender": "male", "photo": "", "phone": "", "address": "", "dob": "1996-05-21", "dateOfDeath": "", "profession": "", "bloodGroup": "", "fatherId": "p1", "motherId": "p2", "spouses": [{ "id": "p10", "status": "married" }], "isInLaw": false },
+    { "id": "p4", "name": "Mohd Syariful Ramsiq bin Shieky", "gender": "male", "photo": "", "phone": "", "address": "", "dob": "1997-11-24", "dateOfDeath": "", "profession": "", "bloodGroup": "", "fatherId": "p1", "motherId": "p2", "spouses": [{ "id": "p11", "status": "married" }], "isInLaw": false },
+    { "id": "p5", "name": "Muhammad Syariful Hisham bin Shieky", "gender": "male", "photo": "", "phone": "", "address": "", "dob": "2001-12-25", "dateOfDeath": "", "profession": "", "bloodGroup": "", "fatherId": "p1", "motherId": "p2", "spouses": [], "isInLaw": false },
+    { "id": "p6", "name": "Muhammad Syariful Azharuddin bin Shieky", "gender": "male", "photo": "", "phone": "", "address": "", "dob": "2004-07-03", "dateOfDeath": "", "profession": "Student", "bloodGroup": "", "fatherId": "p1", "motherId": "p2", "spouses": [], "isInLaw": false },
+    { "id": "p7", "name": "Dayangku Alaisyah Nurhidayah binti Shieky", "gender": "female", "photo": "", "phone": "", "address": "", "dob": "2008-01-21", "dateOfDeath": "", "profession": "", "bloodGroup": "", "fatherId": "p1", "motherId": "p2", "spouses": [], "isInLaw": false },
+    { "id": "p8", "name": "Muhammad Syariful Rayyan bin Shieky", "gender": "male", "photo": "", "phone": "", "address": "", "dob": "2013-09-27", "dateOfDeath": "", "profession": "", "bloodGroup": "", "fatherId": "p1", "motherId": "p2", "spouses": [], "isInLaw": false },
+    { "id": "p9", "name": "Muhammad Syariful Daniyal Yusoff bin Shieky", "gender": "male", "photo": "", "phone": "", "address": "", "dob": "2016-07-30", "dateOfDeath": "", "profession": "", "bloodGroup": "", "fatherId": "p1", "motherId": "p2", "spouses": [], "isInLaw": false },
+
+    { "id": "p10", "name": "Fathimah", "gender": "female", "photo": "", "phone": "", "address": "", "dob": "1996-01-01", "dateOfDeath": "", "profession": "", "bloodGroup": "", "fatherId": null, "motherId": null, "spouses": [{ "id": "p3", "status": "married" }], "isInLaw": true },
+    { "id": "p11", "name": "Sofea", "gender": "female", "photo": "", "phone": "", "address": "", "dob": "1999-01-01", "dateOfDeath": "", "profession": "", "bloodGroup": "", "fatherId": null, "motherId": null, "spouses": [{ "id": "p4", "status": "married" }], "isInLaw": true },
+    { "id": "p12", "name": "Muhammad Fath Fadhan", "gender": "male", "photo": "", "phone": "", "address": "", "dob": "2026-02-28", "dateOfDeath": "", "profession": "", "bloodGroup": "", "fatherId": "p3", "motherId": "p10", "spouses": [], "isInLaw": false }
+  ]
+}
